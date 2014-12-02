@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>plus.repeater :: Default Number of Items</title>
+</head>
+<body>
+<form action="getValue.php" method="post">
+	<table border="1" width="98%">
+		<thead>
+			<tr>
+				<th width="20">#no#</th>
+				<th>#id#</th>
+				<th>link</th>
+				<th>target</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+		<tbody id="repeaterA">
+			<tr id="#id#" class="clone">
+				<td>#no#</td>
+				<td>#id#</td>
+				<td><input type="text" name="links[#no#][href]" size="100"></td>
+				<td><select name="links[#no#][target]">
+						<option>_blank</option>
+						<option>_parent</option>
+						<option>_self</option>
+						<option>_top</option>
+						<option>new</option>
+					</select></td>
+				<td align="left"><a class="remove">remove</a></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3">&nbsp;</td>
+				<td><input type="submit" name="isubmit" value="Submit"></td>
+				<td>&nbsp;</td>
+			</tr>
+		</tfoot>
+	</table>
+</form>
+<script src="../3rdparty/jquery-2.1.1.min.js"></script> 
+<script src="../plus.repeater-1.5/plus.repeater.js"></script> 
+<script>
+$(function(){
+
+	$.repeater({
+		selecter:'repeaterA',
+		min:3,
+		default: 5,
+		max:10
+	});
+
+});
+</script>
+</body>
+</html>
