@@ -1,7 +1,7 @@
-What's notifyMe?
+What's plus.repeater?
 ----------------
 
-notifyMe is a simple plugin that i created for fun and learning for fixed notifications in pages.
+plus.repeater is a simple plugin that i created for fun and learning for fixed notifications in pages.
 He works when a button is clicked, errors, validations, info and everything you want.
 
 Get Started
