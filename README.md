@@ -1,8 +1,7 @@
 What's plus.repeater?
 ----------------
 
-plus.repeater is a simple plugin that i created for fun and learning for fixed notifications in pages.
-He works when a button is clicked, errors, validations, info and everything you want.
+plus.repeater is simple jQuery for make your form can copy itself to new input or other object include label, image and other object when user focus on last row.
 
 Get Started
 ----------------
