@@ -1,7 +1,7 @@
 What's plus.repeater?
 ----------------
 
-plus.repeater is simple jQuery for make your form can copy itself to new input or other object include label, image and other object when user focus on last copy.
+plus.repeater is simple jQuery for make your form can copy itself to new input or other object include label, image and other object when user focus on last copied.
 
 Get Started
 ----------------
@@ -49,7 +49,7 @@ Options
 |-----------------------|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | callback              |                            | Callback function.                                                                                                                                                                               |
 | deepWithDataAndEvents | value of withDataAndEvents | A Boolean indicating whether event handlers and data for all children of the cloned element should be copied. By default its value matches the first argument's value (which defaults to false). |
-| default               | 0                          | Dfault number of copy.                                                                                                                                                                           |
+| default               | 0                          | Default number of copy.                                                                                                                                                                          |
 | max                   | 10                         | Maximum number of copy.                                                                                                                                                                          |
 | min                   | 1                          | Minimum number of copy.                                                                                                                                                                          |
 | parent                | 1                          | Number of parent.                                                                                                                                                                                |
