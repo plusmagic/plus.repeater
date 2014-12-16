@@ -1,7 +1,7 @@
 What's plus.repeater?
 ----------------
 
-plus.repeater is simple jQuery for make your form can copy itself to new input or other object include label, image and other object when user focus on last row.
+plus.repeater is simple jQuery for make your form can copy itself to new input or other object include label, image and other object when user focus on last copy.
 
 Get Started
 ----------------
