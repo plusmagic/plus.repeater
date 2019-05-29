@@ -20,6 +20,7 @@
     "repeat"
   ],
   "license": "MIT",
+  "minimum-stability": "dev",
   "name": "plusmagic/plus.repeater",
   "require": {
     "components/jquery": "*"
