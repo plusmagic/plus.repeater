@@ -75,7 +75,7 @@ foreach ($datas as $data) {
          </table>
       </form>
       <script src="../vendor/components/jquery/jquery.min.js"></script>
-      <script src="../src/plus.repeater.js"></script>
+      <script src="../src/plus.repeater.min.js"></script>
       <script>
          $(function(){
          	$.repeater({
