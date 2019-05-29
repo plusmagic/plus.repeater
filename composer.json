@@ -7,6 +7,9 @@
       "role": "Developer"
     }
   ],
+  "config": {
+    "sort-packages": true
+  },
   "description": "plus.repeater is simple jQuery for make your form can copy itself to new input or other object include label, image and other object when user focus on last copied.",
   "homepage": "http://pitt.plusmagi.com/plus-repeater/",
   "keywords": [
@@ -19,8 +22,7 @@
   "license": "MIT",
   "name": "plusmagic/plus.repeater",
   "require": {
-    "components/jquery": "^3.3"
+    "components/jquery": "*"
   },
-  "type": "library",
-  "version": "1.5.1-stable"
+  "type": "library"
 }
