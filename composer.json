@@ -22,5 +22,5 @@
     "components/jquery": "*"
   },
   "type": "library",
-  "version": "1.5.1"
+  "version": "1.5.1-stable"
 }
