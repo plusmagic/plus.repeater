@@ -36,9 +36,11 @@ Get Started
 
 	```javascript
 	$(function(){
+
 		$.repeater({
-			selecter:'repeaterA'
+			container:'repeaterA'
 		});
+
 	});
 	```
 
@@ -53,7 +55,7 @@ Options
 | max                   | 10                         | Maximum number of copy.                                                                                                                                                                          |
 | min                   | 1                          | Minimum number of copy.                                                                                                                                                                          |
 | parent                | 1                          | Number of parent.                                                                                                                                                                                |
-| selecter              | repeater                   | ID of parent node.                                                                                                                                                                               |
+| container              | repeater                   | ID of parent node.                                                                                                                                                                               |
 | start                 | 0                          | A number for add ID to each copy.                                                                                                                                                                |
 | withDataAndEvents     | false                      | A Boolean indicating whether event handlers should be copied along with the elements. As of jQuery 1.4, element data will be copied as well.                                                     |
 
