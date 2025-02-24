@@ -1,57 +1,62 @@
 <!doctype html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title>plus.repeater :: Chainability</title>
-      <meta name="author" content="Pitt Phunsanit">
-   </head>
-   <body>
-      <form action="getValue.php" method="post">
-         <table border="1" width="98%">
-            <thead>
-               <tr>
-                  <th width="20">#no#</th>
-                  <th>#id#</th>
-                  <th>link</th>
-                  <th>target</th>
-                  <th>Delete</th>
-               </tr>
-            </thead>
-            <tbody id="repeaterA">
-               <tr class="clone" id="#id#">
-                  <td>#no#</td>
-                  <td>#id#</td>
-                  <td><input name="links[#no#][href]" type="text" size="100"></td>
-                  <td>
-                     <select name="links[#no#][target]">
-                        <option>_blank</option>
-                        <option>_parent</option>
-                        <option>_self</option>
-                        <option>_top</option>
-                        <option>new</option>
-                     </select>
-                  </td>
-                  <td align="left"><a class="remove">remove</a></td>
-               </tr>
-            </tbody>
-            <tfoot>
-               <tr>
-                  <td colspan="3">&nbsp;</td>
-                  <td><input name="isubmit" type="submit" value="Submit"></td>
-                  <td>&nbsp;</td>
-               </tr>
-            </tfoot>
-         </table>
-      </form>
-      <script src="../vendor/components/jquery/jquery.min.js"></script> 
-      <script src="../src/plus.repeater.min.js"></script> 
-      <script>
-         $(function(){
-         	$.repeater({
-         		selecter:'repeaterA'
-         	})
-         	.css('background', '#c00000');
-         });
-      </script>
-   </body>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>jQuery plus.repeater: Chainability</title>
+   <meta name="author" content="Pitt Phunsanit">
+</head>
+
+<body>
+   <form action="getValue.php" method="post">
+      <table style="border: 1px solid black;width: 98%;">
+         <thead>
+            <tr>
+               <th style="width: 20px;">#no#</th>
+               <th>#id#</th>
+               <th>link</th>
+               <th>target</th>
+               <th>Delete</th>
+            </tr>
+         </thead>
+         <tbody id="repeaterA">
+            <tr class="clone" id="#id#">
+               <td>#no#</td>
+               <td>#id#</td>
+               <td><input name="links[#no#][href]" type="text" size="100"></td>
+               <td>
+                  <select name="links[#no#][target]">
+                     <option>_blank</option>
+                     <option>_parent</option>
+                     <option>_self</option>
+                     <option>_top</option>
+                     <option>new</option>
+                  </select>
+               </td>
+               <td style="text-align: left;"><a class="remove">remove</a></td>
+            </tr>
+         </tbody>
+         <tfoot>
+            <tr>
+               <td colspan="3">&nbsp;</td>
+               <td><input name="isubmit" type="submit" value="Submit"></td>
+               <td>&nbsp;</td>
+            </tr>
+         </tfoot>
+      </table>
+   </form>
+   <script src="../vendor/components/jquery/jquery.min.js"></script>
+   <script src="../src/jQuery-plus-repeater.min.js"></script>
+   <script>
+      $(function () {
+
+         $.repeater({
+            container: 'repeaterA'
+         })
+            .css('background', '#c00000');
+
+      });
+   </script>
+</body>
+
 </html>
