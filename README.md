@@ -9,6 +9,10 @@ Get Started
 
 	```html
 	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	or
+	<script crossorigin="anonymous"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	```
 
 	>Requires jQuery 1.7+
@@ -17,6 +21,8 @@ Get Started
 
 	```html
 	<script src="/path/to/plus.repeater.js"></script>
+	or
+	composer require plusmagic/plus.repeater
 	```
 
 3. Include id for parent node and class="clone" to yours code for use as template for example:
