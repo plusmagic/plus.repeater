@@ -27,5 +27,6 @@
 	"require-dev": {
 		"jquery": "^3"
 	},
-	"type": "library"
+	"type": "library",
+	"version": "1.5.2"
 }
