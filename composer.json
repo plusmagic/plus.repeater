@@ -24,10 +24,11 @@
 	"license": "MIT",
 	"name": "plusmagic/plus.repeater",
 	"require": {
-		"jquery/jquery": "1.5.2"
+		"jquery/jquery": "*"
 	},
 	"require-dev": {
 		"components/jquery": "*"
 	},
-	"type": "library"
+	"type": "library",
+	"version": "1.5.2"
 }
