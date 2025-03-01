@@ -23,7 +23,7 @@
   	"minimum-stability": "stable",
 	"name": "plusmagic/plus.repeater.demo",
 	"require": {
-		"components/jquery": "*",
+		"components/jquery": "^3.7",
 		"plusmagic/plus.repeater": "^1.5"
 	},
 	"type": "library"
