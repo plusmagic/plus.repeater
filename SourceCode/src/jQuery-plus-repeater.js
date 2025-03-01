@@ -15,7 +15,7 @@ Back to the developer for the benefit of everyone.
 */
 
 jQuery.repeater = function () {
-	var options = $.extend({
+	let options = $.extend({
 		callback: function () { },
 		container: 'repeater',
 		deepWithDataAndEvents: 'default',
@@ -32,7 +32,7 @@ jQuery.repeater = function () {
 	}
 
 	function range() {
-		var count = $('#' + options.container + ' .clone').length;
+		let count = $('#' + options.container + ' .clone').length;
 		if (count < (options.min + 1)) {
 			for (let a = count; a <= options.min; a++) {
 				repeat();
@@ -59,13 +59,14 @@ jQuery.repeater = function () {
 	}
 
 	if (options.default != 0) {
-		var count = $('#' + options.container + ' .clone').length;
-		for (a = count; a <= options.default; a++) {
+		let count = $('#' + options.container + ' .clone').length;
+		for (let a = count; a <= options.default; a++) {
 			repeat();
 		}
 	} else {
 		range();
 	}
+
 	$('#' + options.container + ' .clone:first').hide();
 
 	$('#' + options.container).on('click', '.clone:last', function () {
@@ -77,5 +78,6 @@ jQuery.repeater = function () {
 	});
 
 	options.callback.call(this);
+
 	return $('#' + options.container);
 }
