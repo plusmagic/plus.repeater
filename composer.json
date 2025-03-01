@@ -29,6 +29,5 @@
 	"require-dev": {
 		"components/jquery": "*"
 	},
-	"type": "library",
-	"version": "1.5.2"
+	"type": "library"
 }
